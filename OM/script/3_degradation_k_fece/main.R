@@ -1,0 +1,7 @@
+source('packages.R')
+source('load.R')
+source('kinetics_withSE.R')
+source('significance.R')
+source('significanceK.R')
+source('com.R') 
+source('export.R') 

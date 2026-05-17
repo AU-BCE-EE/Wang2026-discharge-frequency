@@ -1,0 +1,7 @@
+source('packages.R')
+source('load.R')
+source('removal_rate.R') 
+source('lm.R') 
+source('com.R') 
+source('remove_90.R') 
+source('plot.R')

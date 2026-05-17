@@ -1,0 +1,6 @@
+rm(list=ls())
+source('packages.R')
+source('load.R')
+source('ttest.R') 
+source('plot.R') 
+source('export.R') 
