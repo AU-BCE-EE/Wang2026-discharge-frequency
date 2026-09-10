@@ -1,4 +1,4 @@
-metrics <- c("CP","NDF","VS","Lipids")
+metrics <- c("CP","NDF","VS","Lipids","Hemicellulose","Cellulose","TS")
 keep_cols <- c("Farm", "Temperature", "Treatment", "Replicate", "Day", metrics)
 dt <- dt[, ..keep_cols]
 
@@ -41,8 +41,8 @@ dt_fit[, y := log(Value / C0)]
 dt_fit[, t := Day]
 
 k_fit <- dt_fit[, {
-  m <- lm(y ~ 0 + t)                 # 截距强制为 0
-  slope <- coef(m)[["t"]]            # slope = -k
+  m <- lm(y ~ 0 + t)                 
+  slope <- coef(m)[["t"]]           
   list(
     k  = -slope,
     SE = sqrt(vcov(m)[1,1]),
@@ -50,4 +50,4 @@ k_fit <- dt_fit[, {
   )
 }, by = .(Farm, Temperature, Treatment, Metric)]
 
-#
+

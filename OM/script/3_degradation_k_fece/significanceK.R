@@ -4,7 +4,7 @@ kdt <- kdt[Treatment %in% c("control", "weekly flushing")]
 kdt <- kdt[Farm %in% c("A", "B")]
 temp_levels <- sort(unique(kdt$Temperature))  
 day_levels  <- sort(unique(kdt$Day))          
-metric_levels <- c("VS", "CP", "NDF", "Lipids")
+metric_levels <- c("CP","NDF","VS","Lipids","Hemicellulose","Cellulose","TS")
 kdt[, `:=`(
   Farm      = factor(Farm),
   Treatment   = factor(Treatment, levels = c("control", "weekly flushing")),
