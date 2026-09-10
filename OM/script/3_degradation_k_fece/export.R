@@ -3,13 +3,10 @@ fwrite(
   file = "../../output/K_ANOVA_pvalues.csv")
 fwrite(p_table, "../../output/lm_removal_rate_p.csv")
 
-dt_wide_window <- dcast(
-  dt_plot,
-  Metric + Treatment + Farm + Temperature ~ Window,
-  value.var = "K"
-)
-fwrite(dt_wide_window, "../../output/K_wide.csv")
-
+dt_export <- dt_plot[
+  , .(Metric, Treatment, Farm, Temperature, Day, K)
+]
+fwrite(dt_export, "../../output/K_all.csv")
 ggsave(
   filename = "../../figure/hydrolysis_rate.png",
   plot = p,
