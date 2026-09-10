@@ -103,8 +103,21 @@ geom_point(
   ) +
   facetted_pos_scales(
     y = list(
-      Metric == "VS"  ~ scale_y_continuous(breaks = scales::pretty_breaks(n = 3)),
-      Metric == "NDF" ~ scale_y_continuous(breaks = scales::pretty_breaks(n = 3))
+      Metric == "VS" ~ scale_y_continuous(
+        limits = c(-0.005, 0.035),
+        breaks = c(0, 0.015, 0.03),
+        labels = c("0.00", "0.015", "0.03")
+      ),
+      Metric == "NDF" ~ scale_y_continuous(
+        limits = c(-0.005, 0.035),
+        breaks = c(0, 0.015, 0.03),
+        labels = c("0.00", "0.015", "0.03")
+      ),
+      Metric == "Lipids" ~ scale_y_continuous(
+        limits = c(-0.005, 0.035),
+        breaks = c(0, 0.015, 0.03),
+        labels = c("0.00", "0.015", "0.03")
+      )
     )
   )
 

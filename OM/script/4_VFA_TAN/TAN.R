@@ -28,3 +28,40 @@ plot_mean_se <- function(sumDT, title_txt, ylab_expr_or_txt) {
       strip.text.x = element_text(face = "bold")
     )
 }
+######
+#-----------------------------
+# TAN
+# same style as Figure 5
+#-----------------------------
+
+# check TAN range first
+range(
+  dt_plot$TAN,
+  na.rm = TRUE
+)
+
+#-----------------------------
+# TAN plot
+#-----------------------------
+
+p_TAN <- plot_raw_with_mean_line(
+  dt_plot,
+  value_col = "TAN",
+  ylab_expr_or_txt = expression(
+    TAN~(g~kg~slurry^{-1})
+  ),
+  y_breaks = c(
+    0,
+    2.5,
+    5.5
+  ),
+  y_view = c(
+    -0.2,
+    5.5
+  )
+) +
+  labs(
+    x = "Day"
+  )
+
+print(p_TAN)

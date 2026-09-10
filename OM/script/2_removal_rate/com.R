@@ -99,13 +99,26 @@ geom_point(
   
   facet_grid(
     Indicator ~ Farm,
-    scales = "free_y",
+    scales = "fixed",
     labeller = labeller(
       Farm = c(
         "A" = "Farm A",
         "B" = "Farm B"
       )
     )
+  ) +
+  facet_grid(
+    Indicator ~ Farm,
+    scales = "fixed",
+    labeller = labeller(
+      Farm = c("A" = "Farm A", "B" = "Farm B")
+    )
+  ) +
+  
+  scale_y_continuous(
+    breaks = seq(-25, 75, 25),
+    limits = c(-37, 82),
+    expand = expansion(mult = c(0.01, 0.02))
   ) +
   
   scale_color_manual(
