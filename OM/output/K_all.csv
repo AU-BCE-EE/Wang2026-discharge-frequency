@@ -1,0 +1,273 @@
+Metric,Treatment,Farm,Temperature,Day,K
+CP,control,A,10,14,0.020556523
+CP,control,A,10,30,0.009372583
+CP,control,A,10,90,0.002347709
+NDF,control,A,10,30,0.002605166
+NDF,control,A,10,90,0.002459809
+VS,control,A,10,14,0.002247551
+VS,control,A,10,30,0.000960392
+VS,control,A,10,90,0.002069656
+Lipids,control,A,10,30,0.001350465
+Lipids,control,A,10,90,-0.002025217
+CP,control,A,10,14,0.016846894
+CP,control,A,10,30,0.005162377
+CP,control,A,10,90,0.004326418
+NDF,control,A,10,30,0.014206773
+NDF,control,A,10,90,0.006501737
+VS,control,A,10,14,0.011644004
+VS,control,A,10,30,0.006728977
+VS,control,A,10,90,0.005107714
+Lipids,control,A,10,30,0.007461597
+Lipids,control,A,10,90,0.002304197
+CP,weekly flushing,A,10,14,0.007130364
+CP,weekly flushing,A,10,30,0.008052154
+CP,weekly flushing,A,10,90,0.000878136
+NDF,weekly flushing,A,10,30,0.01790106
+NDF,weekly flushing,A,10,90,0.004710067
+VS,weekly flushing,A,10,14,0.007824113
+VS,weekly flushing,A,10,30,0.009469811
+VS,weekly flushing,A,10,90,0.00371575
+Lipids,weekly flushing,A,10,30,0.009143368
+Lipids,weekly flushing,A,10,90,0.001158344
+CP,weekly flushing,A,10,14,0.013224579
+CP,weekly flushing,A,10,30,0.008973843
+CP,weekly flushing,A,10,90,0.002194893
+NDF,weekly flushing,A,10,30,0.004814728
+NDF,weekly flushing,A,10,90,0.002395514
+VS,weekly flushing,A,10,14,0.000265573
+VS,weekly flushing,A,10,30,0.002260753
+VS,weekly flushing,A,10,90,0.001594156
+Lipids,weekly flushing,A,10,30,0.009444489
+Lipids,weekly flushing,A,10,90,0.000754675
+CP,control,A,17.5,14,0.014870801
+CP,control,A,17.5,30,0.025829907
+CP,control,A,17.5,90,0.010518146
+NDF,control,A,17.5,30,0.017740633
+NDF,control,A,17.5,90,0.006641818
+VS,control,A,17.5,14,0.010870851
+VS,control,A,17.5,30,0.013139624
+VS,control,A,17.5,90,0.006055521
+Lipids,control,A,17.5,30,0.004815728
+Lipids,control,A,17.5,90,0.008228925
+CP,control,A,17.5,14,0.008717938
+CP,control,A,17.5,30,0.01449827
+CP,control,A,17.5,90,0.005704198
+NDF,control,A,17.5,30,0.0193894
+NDF,control,A,17.5,90,0.005974012
+VS,control,A,17.5,14,0.021363946
+VS,control,A,17.5,30,0.012218264
+VS,control,A,17.5,90,0.00475314
+Lipids,control,A,17.5,30,0.012210253
+Lipids,control,A,17.5,90,0.008647228
+CP,weekly flushing,A,17.5,14,0.020459101
+CP,weekly flushing,A,17.5,30,0.010271569
+CP,weekly flushing,A,17.5,90,0.003967615
+NDF,weekly flushing,A,17.5,30,0.014964303
+NDF,weekly flushing,A,17.5,90,0.004988025
+VS,weekly flushing,A,17.5,14,0.023194291
+VS,weekly flushing,A,17.5,30,0.009946623
+VS,weekly flushing,A,17.5,90,0.003622219
+Lipids,weekly flushing,A,17.5,30,0.008522791
+Lipids,weekly flushing,A,17.5,90,0.002111955
+CP,weekly flushing,A,17.5,14,0.020167411
+CP,weekly flushing,A,17.5,30,0.014584907
+CP,weekly flushing,A,17.5,90,0.003468158
+NDF,weekly flushing,A,17.5,30,0.014455691
+NDF,weekly flushing,A,17.5,90,0.002475356
+VS,weekly flushing,A,17.5,14,0.005761017
+VS,weekly flushing,A,17.5,30,0.009098798
+VS,weekly flushing,A,17.5,90,0.0027646
+Lipids,weekly flushing,A,17.5,30,0.011351716
+Lipids,weekly flushing,A,17.5,90,0.004461307
+CP,control,A,25,14,0.032930344
+CP,control,A,25,30,0.024399723
+CP,control,A,25,90,0.01771207
+NDF,control,A,25,30,0.019293775
+NDF,control,A,25,90,0.007250177
+VS,control,A,25,14,0.026148647
+VS,control,A,25,30,0.017697153
+VS,control,A,25,90,0.009565178
+Lipids,control,A,25,30,0.016611418
+Lipids,control,A,25,90,0.013277863
+CP,control,A,25,14,0.029417263
+CP,control,A,25,30,0.020172366
+CP,control,A,25,90,0.009326713
+NDF,control,A,25,30,0.025849745
+NDF,control,A,25,90,0.00705148
+VS,control,A,25,14,0.027101238
+VS,control,A,25,30,0.020490598
+VS,control,A,25,90,0.008073536
+Lipids,control,A,25,30,0.020603832
+Lipids,control,A,25,90,0.013400908
+CP,weekly flushing,A,25,14,0.015986909
+CP,weekly flushing,A,25,30,0.026857883
+CP,weekly flushing,A,25,90,0.008566837
+NDF,weekly flushing,A,25,30,0.021455423
+NDF,weekly flushing,A,25,90,0.008058428
+VS,weekly flushing,A,25,14,0.020150797
+VS,weekly flushing,A,25,30,0.015485331
+VS,weekly flushing,A,25,90,0.007114116
+Lipids,weekly flushing,A,25,30,0.011130071
+Lipids,weekly flushing,A,25,90,0.012744688
+CP,weekly flushing,A,25,14,0.029329368
+CP,weekly flushing,A,25,30,0.022856061
+CP,weekly flushing,A,25,90,0.011711633
+NDF,weekly flushing,A,25,30,0.018144919
+NDF,weekly flushing,A,25,90,0.004730999
+VS,weekly flushing,A,25,14,0.015739492
+VS,weekly flushing,A,25,30,0.013207117
+VS,weekly flushing,A,25,90,0.005038393
+Lipids,weekly flushing,A,25,30,0.011248102
+Lipids,weekly flushing,A,25,90,0.012768871
+CP,control,B,10,14,0.031973329
+CP,control,B,10,30,0.018613905
+CP,control,B,10,90,0.003673306
+NDF,control,B,10,30,0.004581712
+NDF,control,B,10,90,0.003708941
+VS,control,B,10,14,-0.00350945
+VS,control,B,10,30,0.002258338
+VS,control,B,10,90,0.000707982
+Lipids,control,B,10,30,4.03E-05
+Lipids,control,B,10,90,-0.001950862
+CP,control,B,10,14,0.032209681
+CP,control,B,10,30,0.02857219
+CP,control,B,10,90,0.011139978
+NDF,control,B,10,30,0.004266858
+NDF,control,B,10,90,0.003416994
+VS,control,B,10,14,-0.003489986
+VS,control,B,10,30,0.003046928
+VS,control,B,10,90,0.001419294
+Lipids,control,B,10,30,0.003096386
+Lipids,control,B,10,90,-0.000152532
+CP,weekly flushing,B,10,14,0.072267592
+CP,weekly flushing,B,10,30,0.015297581
+CP,weekly flushing,B,10,90,0.00398695
+NDF,weekly flushing,B,10,30,0.007134506
+NDF,weekly flushing,B,10,90,0.004694344
+VS,weekly flushing,B,10,14,0.002319218
+VS,weekly flushing,B,10,30,0.007185296
+VS,weekly flushing,B,10,90,0.002195407
+Lipids,weekly flushing,B,10,30,0.004959111
+Lipids,weekly flushing,B,10,90,-0.000218767
+CP,weekly flushing,B,10,14,0.04843687
+CP,weekly flushing,B,10,30,0.024444351
+CP,weekly flushing,B,10,90,0.002553657
+NDF,weekly flushing,B,10,30,0.003117286
+NDF,weekly flushing,B,10,90,0.003943954
+VS,weekly flushing,B,10,14,-0.006881084
+VS,weekly flushing,B,10,30,0.002468415
+VS,weekly flushing,B,10,90,0.00132493
+Lipids,weekly flushing,B,10,30,-0.003610132
+Lipids,weekly flushing,B,10,90,-0.003089142
+CP,control,B,17.5,14,0.047040153
+CP,control,B,17.5,30,0.018989496
+CP,control,B,17.5,90,0.006167399
+NDF,control,B,17.5,30,0.013186193
+NDF,control,B,17.5,90,0.003792783
+VS,control,B,17.5,14,0.002750797
+VS,control,B,17.5,30,0.005448666
+VS,control,B,17.5,90,0.003274329
+Lipids,control,B,17.5,30,-0.002690646
+Lipids,control,B,17.5,90,0.00023779
+CP,control,B,17.5,14,0.042162629
+CP,control,B,17.5,30,0.026304798
+CP,control,B,17.5,90,0.003723673
+NDF,control,B,17.5,30,0.008024536
+NDF,control,B,17.5,90,0.002527574
+VS,control,B,17.5,14,-0.002742587
+VS,control,B,17.5,30,0.005650036
+VS,control,B,17.5,90,0.002976723
+Lipids,control,B,17.5,30,0.001858863
+Lipids,control,B,17.5,90,0.001117248
+CP,weekly flushing,B,17.5,14,0.055599074
+CP,weekly flushing,B,17.5,30,0.040025835
+CP,weekly flushing,B,17.5,90,0.009837672
+NDF,weekly flushing,B,17.5,30,0.010503824
+NDF,weekly flushing,B,17.5,90,0.008419337
+VS,weekly flushing,B,17.5,14,0.002848814
+VS,weekly flushing,B,17.5,30,0.009649374
+VS,weekly flushing,B,17.5,90,0.003871314
+Lipids,weekly flushing,B,17.5,30,0.007442813
+Lipids,weekly flushing,B,17.5,90,0.000828638
+CP,weekly flushing,B,17.5,14,0.019030858
+CP,weekly flushing,B,17.5,30,0.037907595
+CP,weekly flushing,B,17.5,90,0.008188584
+NDF,weekly flushing,B,17.5,30,0.009349698
+NDF,weekly flushing,B,17.5,90,0.004460624
+VS,weekly flushing,B,17.5,14,-0.003262255
+VS,weekly flushing,B,17.5,30,0.006921265
+VS,weekly flushing,B,17.5,90,0.003706001
+Lipids,weekly flushing,B,17.5,30,0.003302542
+Lipids,weekly flushing,B,17.5,90,-0.00054965
+CP,control,B,25,14,0.037575199
+CP,control,B,25,30,0.015091332
+CP,control,B,25,90,0.010880598
+NDF,control,B,25,30,0.020189874
+NDF,control,B,25,90,0.006599
+VS,control,B,25,14,0.006466349
+VS,control,B,25,30,0.009806311
+VS,control,B,25,90,0.003041606
+Lipids,control,B,25,30,0.003508865
+Lipids,control,B,25,90,-0.000861111
+CP,control,B,25,14,0.087213254
+CP,control,B,25,30,0.024281101
+CP,control,B,25,90,0.011138111
+NDF,control,B,25,30,0.010660717
+NDF,control,B,25,90,0.004064749
+VS,control,B,25,14,0.003709925
+VS,control,B,25,30,0.008464352
+VS,control,B,25,90,0.003409694
+Lipids,control,B,25,30,0.002506197
+Lipids,control,B,25,90,0.000556675
+CP,weekly flushing,B,25,14,0.137892523
+CP,weekly flushing,B,25,30,0.027645148
+CP,weekly flushing,B,25,90,0.007963391
+NDF,weekly flushing,B,25,30,0.016865792
+NDF,weekly flushing,B,25,90,0.006219322
+VS,weekly flushing,B,25,14,0.016279087
+VS,weekly flushing,B,25,30,0.01154968
+VS,weekly flushing,B,25,90,0.004559394
+Lipids,weekly flushing,B,25,30,0.006335917
+Lipids,weekly flushing,B,25,90,0.001325603
+CP,weekly flushing,B,25,14,0.089775397
+CP,weekly flushing,B,25,30,0.033852807
+CP,weekly flushing,B,25,90,0.007888769
+NDF,weekly flushing,B,25,30,0.015226917
+NDF,weekly flushing,B,25,90,0.005007026
+VS,weekly flushing,B,25,14,0.008590561
+VS,weekly flushing,B,25,30,0.008345285
+VS,weekly flushing,B,25,90,0.003844908
+Lipids,weekly flushing,B,25,30,-0.000679504
+Lipids,weekly flushing,B,25,90,0.00101517
+CP,weekly flushing,C,17.5,30,-0.002180959
+CP,weekly flushing,C,17.5,90,0.007439293
+NDF,weekly flushing,C,17.5,30,0.002197608
+NDF,weekly flushing,C,17.5,90,0.000847049
+VS,weekly flushing,C,17.5,30,0.005210534
+VS,weekly flushing,C,17.5,90,0.002289635
+Lipids,weekly flushing,C,17.5,30,0.006726
+Lipids,weekly flushing,C,17.5,90,0.000899777
+CP,weekly flushing,C,17.5,30,0.019300281
+CP,weekly flushing,C,17.5,90,0.010932115
+NDF,weekly flushing,C,17.5,30,-0.000613635
+NDF,weekly flushing,C,17.5,90,0.001102092
+VS,weekly flushing,C,17.5,30,0.007493892
+VS,weekly flushing,C,17.5,90,0.0048918
+Lipids,weekly flushing,C,17.5,30,0.005679723
+Lipids,weekly flushing,C,17.5,90,0.006388866
+CP,weekly flushing,D,17.5,30,0.01338989
+CP,weekly flushing,D,17.5,90,-0.002181512
+NDF,weekly flushing,D,17.5,30,0.001892733
+NDF,weekly flushing,D,17.5,90,0.002144194
+VS,weekly flushing,D,17.5,30,0.005439177
+VS,weekly flushing,D,17.5,90,0.002931405
+Lipids,weekly flushing,D,17.5,30,0.007035424
+Lipids,weekly flushing,D,17.5,90,0.000582969
+CP,weekly flushing,D,17.5,30,-0.00134104
+CP,weekly flushing,D,17.5,90,0.016907561
+NDF,weekly flushing,D,17.5,30,0.004402019
+NDF,weekly flushing,D,17.5,90,0.002389218
+VS,weekly flushing,D,17.5,30,0.004121279
+VS,weekly flushing,D,17.5,90,0.003474578
+Lipids,weekly flushing,D,17.5,30,0.002407245
+Lipids,weekly flushing,D,17.5,90,0.003431739

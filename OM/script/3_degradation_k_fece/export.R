@@ -8,7 +8,7 @@ dt_wide_window <- dcast(
   Metric + Treatment + Farm + Temperature ~ Window,
   value.var = "K"
 )
-fwrite(dt_wide_window, "../../output/K_by_time.csv")
+fwrite(dt_wide_window, "../../output/K_wide.csv")
 
 ggsave(
   filename = "../../figure/hydrolysis_rate.png",
