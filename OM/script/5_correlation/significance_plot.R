@@ -13,7 +13,7 @@ p_D <- ggplot(plot_D, aes(x = sig_ratio, y = variable)) +
            fill = "#F4A261",
            color = "black",
            linewidth = 0.4) +
-  scale_x_continuous(limits = c(0, 1), expand = c(0, 0)) +
+  scale_x_continuous(limits = c(0, 1.03), expand = c(0, 0)) +
   labs(
     x = "Significance frequency",
     y = "",
@@ -37,7 +37,7 @@ p_W <- ggplot(plot_W, aes(x = sig_ratio, y = variable)) +
            fill = "#F4A261",
            color = "black",
            linewidth = 0.4) +
-  scale_x_continuous(limits = c(0, 1), expand = c(0, 0)) +
+  scale_x_continuous(limits = c(0, 1.03), expand = c(0, 0)) +
   labs(
     x = "Significance frequency",
     y = "",

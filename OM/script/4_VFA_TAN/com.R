@@ -20,19 +20,19 @@ dt_plot[, Treatment := factor(
 
 dt_plot[, Farm2 := fifelse(
   Farm %chin% c("A", "C", "D"),
-  "FarmA",
-  fifelse(Farm == "B", "FarmB", as.character(Farm))
+  "Farm A",
+  fifelse(Farm == "B", "Farm B", as.character(Farm))
 )]
 
 dt_plot[, Farm2 := factor(
   Farm2,
-  levels = c("FarmA", "FarmB")
+  levels = c("Farm A", "Farm B")
 )]
 
 dt_plot[, Farm_label := fifelse(
   Farm == "C",
-  "farm C",
-  fifelse(Farm == "D", "farm D", NA_character_)
+  "Farm C",
+  fifelse(Farm == "D", "Farm D", NA_character_)
 )]
 
 dt_plot[, Day := as.numeric(as.character(Day))]
@@ -231,8 +231,8 @@ plot_raw_with_mean_line <- function(
     
     scale_shape_manual(
       values = c(
-        "farm C" = 21,
-        "farm D" = 22
+        "Farm C" = 21,
+        "Farm D" = 22
       ),
       name = ""
     ) +

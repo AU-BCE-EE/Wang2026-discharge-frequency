@@ -9,7 +9,7 @@ dt_plot[, Temperature := factor(Temperature, levels = c("10", "17.5", "25"))]
 
 dt_plot <- dt_plot[!(Metric %chin% c("Lipids", "NDF") & Day == 14)]
 dt_plot <- dt_plot[Day %in% c(14, 30, 90)]
-
+dt_plot <- dt_plot[!Metric %chin% c("Hemicellulose", "Cellulose", "TS")]
 # ---- Split: AB (raw points + mean lines) vs CD (points only, overlaid into A) ----
 dt_ab <- dt_plot[Farm %chin% c("A", "B")]
 dt_cd <- dt_plot[Farm %chin% c("C", "D")]
@@ -89,7 +89,7 @@ geom_point(
   ) +
   labs(
     x = "Incubation days (days)",
-    y = expression("First-order rate constant, "~K~"(day"^{-1}*")")
+    y = expression("First-order rate constant, "~k~"(day"^{-1}*")")
   ) +
   theme_bw() +
   theme(

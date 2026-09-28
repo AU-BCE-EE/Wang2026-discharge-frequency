@@ -135,7 +135,7 @@ geom_point(
   
   labs(
     x = "Temperature (°C)",
-    y = "Removal at Day 90 (%)"
+    y = "Removal at day 90 (%)"
   ) +
   
   theme_bw(base_size = 14) +

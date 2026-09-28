@@ -43,8 +43,8 @@ dt_sum <- dt_long[
 
 var_labels <- c(
   TS            = "TS~(g~kg~slurry^{-1})",
-  VS            = "VS~(g~kg~DM^{-1})",
-  CP            = "CP~(g~kg~DM^{-1})",
+  VS            = "VS~(g~kg~TS^{-1})",
+  CP            = "CP~(g~kg~TS^{-1})",
   TAN           = "TAN~(g~kg~slurry^{-1})",
   TKN           = "TKN~(g~kg~slurry^{-1})",
   pH            = "pH~(dimensionless)",
@@ -52,11 +52,11 @@ var_labels <- c(
   Acetic        = "Acetic~(g~kg~slurry^{-1})",
   Propionic     = "Propionic~(g~kg~slurry^{-1})",
   Butanoic      = "Butanoic~(g~kg~slurry^{-1})",
-  NDF           = "NDF~(g~kg~DM^{-1})",
-  Hemicellulose = "Hemicellulose(g~kg~DM^{-1})",
-  Cellulose     = "Cellulose~(g~kg~DM^{-1})",
-  Lignin        = "Lignin~(g~kg~DM^{-1})",
-  Lipids        = "Lipids~(g~kg~DM^{-1})"
+  NDF           = "NDF~(g~kg~TS^{-1})",
+  Hemicellulose = "Hemicellulose(g~kg~TS^{-1})",
+  Cellulose     = "Cellulose~(g~kg~TS^{-1})",
+  Lignin        = "Lignin~(g~kg~TS^{-1})",
+  Lipids        = "Lipids~(g~kg~TS^{-1})"
 )
 
 
